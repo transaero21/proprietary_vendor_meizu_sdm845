@@ -1120,83 +1120,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845-common/proprietary/vendor/lib64/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.callinfo@1.0.so \
     vendor/meizu/sdm845-common/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/meizu/sdm845-common/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0.so \
-    vendor/meizu/sdm845-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
-    vendor/meizu/sdm845-common/proprietary/vendor/bin/wifidisplayhalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wifidisplayhalservice \
-    vendor/meizu/sdm845-common/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/initcom.qualcomm.qti.wifidisplayhal@1.0-service.rc \
-    vendor/meizu/sdm845-common/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
-    vendor/meizu/sdm845-common/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0-impl.so \
-    vendor/meizu/sdm845-common/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0_vendor.so \
-    vendor/meizu/sdm845-common/proprietary/vendor/lib64/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
-    vendor/meizu/sdm845-common/proprietary/vendor/lib64/com.qualcomm.qti.wifidisplayhal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.wifidisplayhal@1.0-impl.so \
-    vendor/meizu/sdm845-common/proprietary/vendor/lib64/com.qualcomm.qti.wifidisplayhal@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.wifidisplayhal@1.0_vendor.so \
-    vendor/meizu/sdm845-common/proprietary/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM)/bin/wfdservice \
-    vendor/meizu/sdm845-common/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
-    vendor/meizu/sdm845-common/proprietary/lib/libstagefright_wfd.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_wfd.so \
-    vendor/meizu/sdm845-common/proprietary/lib64/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.wifidisplayhal@1.0.so \
-    vendor/meizu/sdm845-common/proprietary/lib64/libstagefright_wfd.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_wfd.so \
-    vendor/meizu/sdm845-common/proprietary/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/wfdservice.rc \
-    vendor/meizu/sdm845-common/proprietary/etc/wfdconfig.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/wfdconfig.xml \
-    vendor/meizu/sdm845-common/proprietary/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/wfdconfigsink.xml \
-	vendor/meizu/sdm845-common/proprietary/lib/libwfdmminterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdmminterface.so \
-	vendor/meizu/sdm845-common/proprietary/lib/libwfdmmsink.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdmmsink.so \
-	vendor/meizu/sdm845-common/proprietary/lib/libwfdmmsrc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdmmsrc.so \
-	vendor/meizu/sdm845-common/proprietary/lib/libwfdnative.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdnative.so \
-	vendor/meizu/sdm845-common/proprietary/lib/libwfdrtsp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdrtsp.so \
-	vendor/meizu/sdm845-common/proprietary/lib/libwfdservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdservice.so \
-	vendor/meizu/sdm845-common/proprietary/lib/libwfdsm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdsm.so \
-	vendor/meizu/sdm845-common/proprietary/lib/libwfduibcinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcinterface.so \
-	vendor/meizu/sdm845-common/proprietary/lib/libwfduibcsink.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsink.so \
-	vendor/meizu/sdm845-common/proprietary/lib/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsinkinterface.so \
-	vendor/meizu/sdm845-common/proprietary/lib/libwfduibcsrc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrc.so \
-	vendor/meizu/sdm845-common/proprietary/lib/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrcinterface.so \
-	vendor/meizu/sdm845-common/proprietary/lib/libwfdavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdavenhancements.so \
-	vendor/meizu/sdm845-common/proprietary/lib/libwfdcodecv4l2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdcodecv4l2.so \
-	vendor/meizu/sdm845-common/proprietary/lib/libwfdcommonutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdcommonutils.so \
-	vendor/meizu/sdm845-common/proprietary/lib/libwfdconfigutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdconfigutils.so \
-	vendor/meizu/sdm845-common/proprietary/lib64/libwfdcommonutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdcommonutils.so \
-	vendor/meizu/sdm845-common/proprietary/lib64/libwfdconfigutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdconfigutils.so \
-	vendor/meizu/sdm845-common/proprietary/lib64/libwfdmminterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdmminterface.so \
-	vendor/meizu/sdm845-common/proprietary/lib64/libwfdmmsink.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdmmsink.so \
-	vendor/meizu/sdm845-common/proprietary/lib64/libwfdmmsrc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdmmsrc.so \
-	vendor/meizu/sdm845-common/proprietary/lib64/libwfdnative.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdnative.so \
-	vendor/meizu/sdm845-common/proprietary/lib64/libwfdrtsp.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdrtsp.so \
-	vendor/meizu/sdm845-common/proprietary/lib64/libwfds.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfds.so \
-	vendor/meizu/sdm845-common/proprietary/lib64/libwfdservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdservice.so \
-	vendor/meizu/sdm845-common/proprietary/lib64/libwfdsm.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdsm.so \
-	vendor/meizu/sdm845-common/proprietary/lib64/libwfduibcinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfduibcinterface.so \
-	vendor/meizu/sdm845-common/proprietary/lib64/libwfduibcsink.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfduibcsink.so \
-	vendor/meizu/sdm845-common/proprietary/lib64/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfduibcsinkinterface.so \
-	vendor/meizu/sdm845-common/proprietary/lib64/libwfduibcsrc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfduibcsrc.so \
-	vendor/meizu/sdm845-common/proprietary/lib64/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfduibcsrcinterface.so \
-	vendor/meizu/sdm845-common/proprietary/lib64/libwfdavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdavenhancements.so \
-	vendor/meizu/sdm845-common/proprietary/lib64/libwfdcodecv4l2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdcodecv4l2.so \
-	vendor/meizu/sdm845-common/proprietary/vendor/lib64/libwfdcommonutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdcommonutils_proprietary.so \
-	vendor/meizu/sdm845-common/proprietary/vendor/lib64/libwfdhaldsmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdhaldsmanager.so \
-	vendor/meizu/sdm845-common/proprietary/vendor/lib64/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdhdcpcp.so \
-	vendor/meizu/sdm845-common/proprietary/vendor/lib64/libwfdmmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdmmservice.so \
-	vendor/meizu/sdm845-common/proprietary/vendor/lib64/libwfdmodulehdcpsession.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdmodulehdcpsession.so \
-	vendor/meizu/sdm845-common/proprietary/vendor/lib/libwfdcommonutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdcommonutils_proprietary.so \
-	vendor/meizu/sdm845-common/proprietary/vendor/lib/libwfdhaldsmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhaldsmanager.so \
-	vendor/meizu/sdm845-common/proprietary/vendor/lib/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhdcpcp.so \
-	vendor/meizu/sdm845-common/proprietary/vendor/lib/libwfdmmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmmservice.so \
-	vendor/meizu/sdm845-common/proprietary/vendor/lib/libwfdmodulehdcpsession.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmodulehdcpsession.so \
-	vendor/meizu/sdm845-common/proprietary/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
-	vendor/meizu/sdm845-common/proprietary/lib/libmmparser.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmparser.so \
-	vendor/meizu/sdm845-common/proprietary/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmparser_lite.so \
-	vendor/meizu/sdm845-common/proprietary/lib/libskia.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libskia.so \
-	vendor/meizu/sdm845-common/proprietary/lib64/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libFileMux.so \
-	vendor/meizu/sdm845-common/proprietary/lib64/libmmparser.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmparser.so \
-	vendor/meizu/sdm845-common/proprietary/lib64/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmparser_lite.so \
-	vendor/meizu/sdm845-common/proprietary/lib64/libskia.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libskia.so \
-	vendor/meizu/sdm845-common/proprietary/lib/libstagefright_soft_aacdec.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_soft_aacdec.so \
-	vendor/meizu/sdm845-common/proprietary/lib/libstagefright_soft_aacenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_soft_aacenc.so \
-	vendor/meizu/sdm845-common/proprietary/lib64/libstagefright_soft_aacdec.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_soft_aacdec.so \
-	vendor/meizu/sdm845-common/proprietary/lib64/libstagefright_soft_aacenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_soft_aacenc.so \
-	vendor/meizu/sdm845-common/proprietary/lib/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxMux.so \
-	vendor/meizu/sdm845-common/proprietary/lib64/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libOmxMux.so \
-	vendor/meizu/sdm845-common/proprietary/lib64/libhwjpeg.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhwjpeg.so \
-	vendor/meizu/sdm845-common/proprietary/lib/libhwjpeg.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhwjpeg.so \
-	vendor/meizu/sdm845-common/proprietary/lib64/libclang_rt.ubsan_standalone-aarch64-android.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libclang_rt.ubsan_standalone-aarch64-android.so
+    vendor/meizu/sdm845-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
 
 PRODUCT_PACKAGES += \
     com.qualcomm.qti.imscmservice@1.0 \
@@ -1218,6 +1142,4 @@ PRODUCT_PACKAGES += \
     uceShimService \
     CNEService \
     ims \
-    qcrilmsgtunnel \
-    WfdService \
-    WfdCommon
+    qcrilmsgtunnel
