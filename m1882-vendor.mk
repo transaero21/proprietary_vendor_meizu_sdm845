@@ -1216,8 +1216,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1882/proprietary/vendor/bin/xtwifi-client:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-client \
     vendor/meizu/m1882/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
     vendor/meizu/m1882/proprietary/vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.0-service-qti.rc \
-    vendor/meizu/m1882/proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml \
-    vendor/meizu/m1882/proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml \
     vendor/meizu/m1882/proprietary/vendor/lib/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.0.so \
     vendor/meizu/m1882/proprietary/vendor/lib/vendor.qti.gnss@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.1.so \
     vendor/meizu/m1882/proprietary/vendor/lib/vendor.qti.gnss@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.2.so \
@@ -1254,7 +1252,9 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1882/proprietary/vendor/lib64/vendor.qti.gnss@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@3.0.so
 
 PRODUCT_PACKAGES += \
-    libloc_api_v02
+    libloc_api_v02 \
+    vendor.qti.gnss@3.0-service \
+    android.hardware.gnss@2.0-service-qti
 
 # QMI - from beryllium - Xiaomi/beryllium/beryllium:10/QKQ1.190828.002/V11.0.9.0.QEJMIXM:user/release-keys
 PRODUCT_COPY_FILES += \
