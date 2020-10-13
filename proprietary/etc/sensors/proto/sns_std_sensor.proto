@@ -139,7 +139,8 @@ enum sns_std_sensor_attr_id
 
   // OPTIONAL
   // Boolean
-  // Boolean: Whether the Sensor supports Data Ready Interrupt (DRI).
+  // Whether the Sensor supports Data Ready Interrupt (DRI) or IBI
+  // (In Band Interrupt).
   SNS_STD_SENSOR_ATTRID_DRI = 13;
 
   // OPTIONAL

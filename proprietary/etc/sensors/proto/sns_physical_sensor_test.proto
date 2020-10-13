@@ -20,11 +20,9 @@ enum sns_physical_sensor_test_msgid
 
   // Test config request to a physical Sensor
   SNS_PHYSICAL_SENSOR_TEST_MSGID_SNS_PHYSICAL_SENSOR_TEST_CONFIG = 515;
-  SNS_PHYSICAL_SENSOR_TEST_MSGID_SNS_PHYSICAL_SENSOR_TOUCHSCREEN_CONFIG = 516;
 
   // Test event message from a physical Sensor
   SNS_PHYSICAL_SENSOR_TEST_MSGID_SNS_PHYSICAL_SENSOR_TEST_EVENT  = 1026;
-  SNS_PHYSICAL_SENSOR_TEST_MSGID_SNS_MEIZU_SENSOR_TEST_EVENT  = 1027;
 }
 
 // Supported test types for physical sensors
@@ -43,16 +41,6 @@ enum sns_physical_sensor_test_type
 
   // Communication bus test.
   SNS_PHYSICAL_SENSOR_TEST_TYPE_COM = 3;
-
-  //meizu sensor test.
-  SNS_MEIZU_SENSOR_TEST_RAW_DATA = 10;
-  SNS_MEIZU_SENSOR_TEST_DATA1 =	11; 
-  SNS_MEIZU_SENSOR_TEST_DATA2 = 12;
-  SNS_MEIZU_SENSOR_TEST_DATA3 = 13;
-
-  //meizu touchscreen type
-  SNS_MEIZU_TOUCHSCREEN_TYPE_WHITE = 20;
-  SNS_MEIZU_TOUCHSCREEN_TYPE_BLACK = 21; 
 }
 
 // Physical Sensor test configuration request
