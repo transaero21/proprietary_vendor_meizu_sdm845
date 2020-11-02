@@ -167,18 +167,23 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/nanopb.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/nanopb.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/qti_gravity.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/qti_gravity.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_accel.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_accel.proto \
+    vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_accel_cal.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_accel_cal.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_ambient_light.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_ambient_light.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_ambient_temperature.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_ambient_temperature.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_amd.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_amd.proto \
+    vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_aont.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_aont.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_async_com_port.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_async_com_port.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_basic_gestures.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_basic_gestures.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_bring_to_ear.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_bring_to_ear.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_cal.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_cal.proto \
+    vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_ccd_ttw.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_ccd_ttw.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_ccd_walk.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_ccd_walk.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_client.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_client.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_cmc.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_cmc.proto \
+    vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_cmd.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_cmd.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_da_test.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_da_test.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_dae.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_dae.proto \
+    vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_data_acquisition_engine.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_data_acquisition_engine.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_device_mode.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_device_mode.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_device_orient.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_device_orient.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_diag.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_diag.proto \
@@ -188,6 +193,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_ext_svc.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_ext_svc.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_facing.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_facing.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_fmv.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_fmv.proto \
+    vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_formatter.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_formatter.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_fw.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_fw.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_game_rv.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_game_rv.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_geomag_rv.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_geomag_rv.proto \
@@ -202,13 +208,16 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_interrupt.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_interrupt.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_mag.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_mag.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_mag_cal.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_mag_cal.proto \
+    vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_mcmd.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_mcmd.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_motion_detect.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_motion_detect.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_multishake.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_multishake.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_oem1.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_oem1.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_offbody_detect.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_offbody_detect.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_pedometer.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_pedometer.proto \
+    vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_pedometer_wrist.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_pedometer_wrist.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_physical_sensor_test.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_physical_sensor_test.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_pose_6dof.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_pose_6dof.proto \
+    vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_ppg.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_ppg.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_pressure.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_pressure.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_proximity.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_proximity.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_psmd.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_psmd.proto \
@@ -218,6 +227,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_rgb.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_rgb.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_rmd.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_rmd.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_rotv.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_rotv.proto \
+    vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_sar.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_sar.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_sensor_temperature.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_sensor_temperature.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_sig_motion.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_sig_motion.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_signal_sensor.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_signal_sensor.proto \
@@ -229,10 +239,12 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_std_type.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_std_type.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_suid.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_suid.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_thermopile.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_thermopile.proto \
+    vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_threshold.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_threshold.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_tilt.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_tilt.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_tilt_to_wake.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_tilt_to_wake.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_timer.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_timer.proto \
     vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_ultra_violet.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_ultra_violet.proto \
+    vendor/meizu/m1882/proprietary/etc/sensors/proto/sns_wrist_tilt_gesture.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_wrist_tilt_gesture.proto \
     vendor/meizu/m1882/proprietary/etc/vstab_db_0_1080p_video_30fps.config:$(TARGET_COPY_OUT_SYSTEM)/etc/vstab_db_0_1080p_video_30fps.config \
     vendor/meizu/m1882/proprietary/etc/vstab_db_0_4k_video_30fps.config:$(TARGET_COPY_OUT_SYSTEM)/etc/vstab_db_0_4k_video_30fps.config \
     vendor/meizu/m1882/proprietary/etc/vstab_db_0_720p_video_30fps.config:$(TARGET_COPY_OUT_SYSTEM)/etc/vstab_db_0_720p_video_30fps.config \
