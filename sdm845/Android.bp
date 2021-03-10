@@ -286,6 +286,23 @@ cc_prebuilt_library_shared {
 	soc_specific: true,
 }
 
+cc_prebuilt_library_shared {
+	name: "libqct_resampler",
+	owner: "meizu",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/system_ext/lib/libqct_resampler.so"],
+		},
+	},
+	compile_multilib: "32",
+	check_elf_files: false,
+	prefer: true,
+	system_ext_specific: true,
+}
+
 android_app_import {
 	name: "QtiSystemService",
 	owner: "meizu",
@@ -485,3 +502,4 @@ prebuilt_etc_xml {
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
 }
+
