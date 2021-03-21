@@ -143,23 +143,4 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1882/proprietary/vendor/firmware/sms_ring29.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sms_ring29.bin \
     vendor/meizu/m1882/proprietary/vendor/firmware/sms_ring30.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sms_ring30.bin \
     vendor/meizu/m1882/proprietary/vendor/firmware/sms_ring31.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sms_ring31.bin \
-    vendor/meizu/m1882/proprietary/vendor/firmware/sms_ring32.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sms_ring32.bin \
-    vendor/meizu/m1882/proprietary/vendor/lib/modules/llcc_perfmon.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/llcc_perfmon.ko \
-    vendor/meizu/m1882/proprietary/vendor/lib/modules/modules.alias:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.alias \
-    vendor/meizu/m1882/proprietary/vendor/lib/modules/modules.dep:$(TARGET_COPY_OUT_VENDOR)/lib/modules/modules.dep \
-    vendor/meizu/m1882/proprietary/vendor/lib/modules/mpq-adapter.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/mpq-adapter.ko \
-    vendor/meizu/m1882/proprietary/vendor/lib/modules/mpq-dmx-hw-plugin.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/mpq-dmx-hw-plugin.ko \
-    vendor/meizu/m1882/proprietary/vendor/lib/modules/pinctrl-wcd.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/pinctrl-wcd.ko \
-    vendor/meizu/m1882/proprietary/vendor/lib/modules/qca_cld3_wlan.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/qca_cld3_wlan.ko \
-    vendor/meizu/m1882/proprietary/vendor/lib/modules/rdbg.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/rdbg.ko \
-    vendor/meizu/m1882/proprietary/vendor/lib/modules/snd-soc-cs35l41-spi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd-soc-cs35l41-spi.ko \
-    vendor/meizu/m1882/proprietary/vendor/lib/modules/snd-soc-cs35l41.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd-soc-cs35l41.ko \
-    vendor/meizu/m1882/proprietary/vendor/lib/modules/snd-soc-sdm845.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd-soc-sdm845.ko \
-    vendor/meizu/m1882/proprietary/vendor/lib/modules/snd-soc-wcd-mbhc.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd-soc-wcd-mbhc.ko \
-    vendor/meizu/m1882/proprietary/vendor/lib/modules/snd-soc-wcd-spi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd-soc-wcd-spi.ko \
-    vendor/meizu/m1882/proprietary/vendor/lib/modules/snd-soc-wcd934x.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd-soc-wcd934x.ko \
-    vendor/meizu/m1882/proprietary/vendor/lib/modules/snd-soc-wcd9xxx.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/snd-soc-wcd9xxx.ko \
-    vendor/meizu/m1882/proprietary/vendor/lib/modules/swr-wcd-ctrl.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/swr-wcd-ctrl.ko \
-    vendor/meizu/m1882/proprietary/vendor/lib/modules/tspp.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/tspp.ko \
-    vendor/meizu/m1882/proprietary/vendor/lib/modules/wcd-core.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wcd-core.ko \
-    vendor/meizu/m1882/proprietary/vendor/lib/modules/wcd-dsp-glink.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wcd-dsp-glink.ko
+    vendor/meizu/m1882/proprietary/vendor/firmware/sms_ring32.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sms_ring32.bin
