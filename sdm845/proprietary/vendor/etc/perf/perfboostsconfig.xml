@@ -26,7 +26,7 @@
 
         <!-- Type="1", main launch boost of 2sec -->
         <Config
-            Id="0x00001081" Type="1" Enable="true" Timeout="2000" Target="sdm710"
+            Id="0x00001081" Type="1" Enable="true" Timeout="2000" Target="sdm845"
             Resources="0x40C20000, 0x28, 0x40C1C000, 0x32, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 1747,
                        0x40800100, 1516" />
 
@@ -40,7 +40,7 @@
 
         <!-- Type="2", launch boost for disable packing 1.5sec -->
         <Config
-            Id="0x00001081" Type="2" Enable="true" Timeout="1500" Target="sdm710"
+            Id="0x00001081" Type="2" Enable="true" Timeout="1500" Target="sdm845"
             Resources="0x40400000, 0x1, 0x42C10000, 0x1, 0x41800000, 59,
                        0x43000000, 806, 0x43400000, 1190, 0x4281C000, 1500" />
 
@@ -52,7 +52,7 @@
 
         <!-- Type="3", FA launch boost of 15sec -->
         <Config
-            Id="0x00001081" Type="3" Enable="true" Timeout="15000" Target="sdm710"
+            Id="0x00001081" Type="3" Enable="true" Timeout="15000" Target="sdm845"
            Resources="0x40C00000, 0x3, 0x40C58000, 95, 0x40C54000, 100, 0x40408000, 0x63" />
 
      <!-- config_gameBoost-->
@@ -63,7 +63,7 @@
 
          <!-- Type="4", FA launch boost of 15sec -->
          <Config
-             Id="0x00001081" Type="4" Enable="true" Timeout="15000" Target="sdm710"
+             Id="0x00001081" Type="4" Enable="true" Timeout="15000" Target="sdm845"
             Resources="0x40C00000, 0x3, 0x40C58000, 95, 0x40C54000, 100, 0x40408000, 0x63" />
 
     <!-- config_enableLaunchBoostv5-->
@@ -82,7 +82,7 @@
 
         <!-- Type="5", Adaptive Launch boost -->
         <Config
-            Id="0x00001081" Type="5" Enable="true" Timeout="2000" Target="sdm710"
+            Id="0x00001081" Type="5" Enable="true" Timeout="2000" Target="sdm845"
             Resources="0x41000100, 0x4, 0x41000000, 0x4,
                        0x41440000, 0x28, 0x41440100, 0x28,
                        0x4143C000, 0xFFF, 0x4143C100, 0xFFF,
@@ -97,7 +97,7 @@
 
         <!-- Type="6", Game Launch boost -->
         <Config
-            Id="0x00001081" Type="6" Enable="true" Timeout="2000" Target="sdm710"
+            Id="0x00001081" Type="6" Enable="true" Timeout="2000" Target="sdm845"
             Resources="0x40C68000, 60, 0x40C68010, 60,
                        0x40C68100, 33, 0x40C68110, 33, 0x40C68120, 33, 0x40C68130, 33, 0x40C68140, 33, 0x40C68150, 33,
                        0x41448000, 20000 "/>
@@ -108,7 +108,7 @@
         <!-- CPUBOOST_MIN_FREQ BIG Core resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
         <Config
-            Id="0x00001083" Enable="true" Timeout="400" Target="sdm710"
+            Id="0x00001083" Enable="true" Timeout="400" Target="sdm845"
             Resources="0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 2208, 0x40800100, 1708" />
 
     <!--Vertical Scroll boost-->
@@ -120,7 +120,7 @@
 
         <!-- Type="1", Vertical Scroll boost -->
         <Config
-            Id="0x00001080" Type="1" Enable="true" Target="sdm710"
+            Id="0x00001080" Type="1" Enable="true" Target="sdm845"
             Resources="0x41800000, 0x31, 0x40800000, 1100, 0x40800100, 1100, 0x40C00000, 2" />
 
     <!--Horizontal Scroll boost-->
@@ -132,7 +132,7 @@
 
         <!-- Type="2", Horizontal Scroll boost -->
         <Config
-            Id="0x00001080" Type="2" Enable="true" Target="sdm710"
+            Id="0x00001080" Type="2" Enable="true" Target="sdm845"
             Resources="0x41800000, 0x31, 0x40800000, 1100, 0x40800100, 1100, 0x40C00000, 2" />
 
     <!--Pre-Fling boost-->
@@ -144,7 +144,7 @@
 
         <!-- Type="4", Pre-Fling boost -->
         <Config
-            Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="sdm710"
+            Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="sdm845"
             Resources="0x41800000, 0x31, 0x40800000, 1100, 0x40800100, 1100, 0x40C00000, 2" />
 
     <!--MTP boost-->
@@ -158,7 +158,7 @@
         <!-- Type="", MTP boost -->
 
         <Config
-            Id="0x00001086" Enable="true" Target="sdm710"
+            Id="0x00001086" Enable="true" Target="sdm845"
             Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 1747,
                        0x40800100, 1516, 0x42C10000, 0x1" />
 
@@ -170,7 +170,7 @@
         <!-- Type="", Package Install boost -->
 
         <Config
-            Id="0x00001088" Enable="true" Target="sdm710"
+            Id="0x00001088" Enable="true" Target="sdm845"
             Resources="0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 0xFFF,
                        0x40800100, 0xFFF" />
 
@@ -183,7 +183,7 @@
         <!-- Type="", Rotation latency boost -->
 
         <Config
-            Id="0x00001089" Enable="true" Timeout="1500" Target="sdm710"
+            Id="0x00001089" Enable="true" Timeout="1500" Target="sdm845"
             Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000,0xFFF,
                        0x40800100,0xFFF" />
 
@@ -193,18 +193,18 @@
         <!-- Type="", Rotation animation boost -->
 
         <Config
-            Id="0x00001090" Enable="true" Timeout="1000" Target="sdm710"
+            Id="0x00001090" Enable="true" Timeout="1000" Target="sdm845"
             Resources="0x40800100, 1000, 0x4280C000, 596" />
 
     <!--Display on Resource -->
         <!-- Display on resource opcode, value -->
         <Config
-                Id="0x00001041" Enable="true" Timeout="0" Target="sdm710"
+                Id="0x00001041" Enable="true" Timeout="0" Target="sdm845"
                 Resources="0x40000000, 1" />
     <!--Display off Resource -->
         <!-- Display on resource opcode, value -->
         <Config
-                Id="0x00001040" Enable="true" Timeout="0" Target="sdm710"
+                Id="0x00001040" Enable="true" Timeout="0" Target="sdm845"
                 Resources="0x40000000, 0x0" />
 
     </PerfBoost>
