@@ -423,18 +423,6 @@ android_app_import {
 	system_ext_specific: true,
 }
 
-android_app_import {
-	name: "WfdService",
-	owner: "meizu",
-	apk: "proprietary/system_ext/priv-app/WfdService/WfdService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
 dex_import {
 	name: "QPerformance",
 	owner: "meizu",
@@ -451,12 +439,6 @@ dex_import {
 	name: "UxPerformance",
 	owner: "meizu",
 	jars: ["proprietary/system/framework/UxPerformance.jar"],
-}
-
-dex_import {
-	name: "WfdCommon",
-	owner: "meizu",
-	jars: ["proprietary/system/framework/WfdCommon.jar"],
 }
 
 prebuilt_etc_xml {
@@ -503,4 +485,3 @@ prebuilt_etc_xml {
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
 }
-

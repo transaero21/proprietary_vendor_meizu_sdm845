@@ -1332,11 +1332,9 @@ PRODUCT_PACKAGES += \
     pasrservice \
     PerformanceMode \
     workloadclassifier \
-    WfdService \
     QPerformance \
     QXPerformance \
     UxPerformance \
-    WfdCommon \
     android.hardware.gnss@2.0-service-qti \
     manifest_android.hardware.drm@1.3-service.widevine \
     vendor.qti.gnss@3.0-service \
