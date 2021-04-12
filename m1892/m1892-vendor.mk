@@ -1,4 +1,4 @@
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,6 +18,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/meizu/m1892
 
 PRODUCT_COPY_FILES += \
+    vendor/meizu/m1892/proprietary/vendor/bin/iwpriv:$(TARGET_COPY_OUT_VENDOR)/bin/iwpriv \
     vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_dri_0.json \
     vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/bh1745_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bh1745_0.json \
     vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/config_list.txt:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/config_list.txt \
@@ -52,6 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sns_tilt.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt.json \
     vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sns_tilt_to_wake.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_to_wake.json \
     vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/stk3x2x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/stk3x2x_0.json \
+    vendor/meizu/m1892/proprietary/vendor/firmware/ZKL_SimHei_48.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ZKL_SimHei_48.bin \
     vendor/meizu/m1892/proprietary/vendor/firmware/cleanup_ring.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cleanup_ring.bin \
     vendor/meizu/m1892/proprietary/vendor/firmware/coin_ring.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/coin_ring.bin \
     vendor/meizu/m1892/proprietary/vendor/firmware/defalm_ring.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/defalm_ring.bin \
@@ -68,6 +70,15 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1892/proprietary/vendor/firmware/dw_174hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dw_174hz.bin \
     vendor/meizu/m1892/proprietary/vendor/firmware/dw_175hz.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dw_175hz.bin \
     vendor/meizu/m1892/proprietary/vendor/firmware/mpacc_ring.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mpacc_ring.bin \
+    vendor/meizu/m1892/proprietary/vendor/firmware/mzese.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/mzese.b00 \
+    vendor/meizu/m1892/proprietary/vendor/firmware/mzese.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/mzese.b01 \
+    vendor/meizu/m1892/proprietary/vendor/firmware/mzese.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/mzese.b02 \
+    vendor/meizu/m1892/proprietary/vendor/firmware/mzese.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/mzese.b03 \
+    vendor/meizu/m1892/proprietary/vendor/firmware/mzese.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/mzese.b04 \
+    vendor/meizu/m1892/proprietary/vendor/firmware/mzese.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/mzese.b05 \
+    vendor/meizu/m1892/proprietary/vendor/firmware/mzese.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/mzese.b06 \
+    vendor/meizu/m1892/proprietary/vendor/firmware/mzese.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/mzese.b07 \
+    vendor/meizu/m1892/proprietary/vendor/firmware/mzese.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/mzese.mdt \
     vendor/meizu/m1892/proprietary/vendor/firmware/plug_usb_ring.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/plug_usb_ring.bin \
     vendor/meizu/m1892/proprietary/vendor/firmware/sim_ring00.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sim_ring00.bin \
     vendor/meizu/m1892/proprietary/vendor/firmware/sim_ring01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sim_ring01.bin \
@@ -141,4 +152,5 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1892/proprietary/vendor/firmware/sms_ring29.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sms_ring29.bin \
     vendor/meizu/m1892/proprietary/vendor/firmware/sms_ring30.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sms_ring30.bin \
     vendor/meizu/m1892/proprietary/vendor/firmware/sms_ring31.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sms_ring31.bin \
-    vendor/meizu/m1892/proprietary/vendor/firmware/sms_ring32.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sms_ring32.bin
+    vendor/meizu/m1892/proprietary/vendor/firmware/sms_ring32.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sms_ring32.bin \
+    vendor/meizu/m1892/proprietary/vendor/firmware/syna_tp.img:$(TARGET_COPY_OUT_VENDOR)/firmware/syna_tp.img
