@@ -1,4 +1,4 @@
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -143,4 +143,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1882/proprietary/vendor/firmware/sms_ring29.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sms_ring29.bin \
     vendor/meizu/m1882/proprietary/vendor/firmware/sms_ring30.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sms_ring30.bin \
     vendor/meizu/m1882/proprietary/vendor/firmware/sms_ring31.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sms_ring31.bin \
-    vendor/meizu/m1882/proprietary/vendor/firmware/sms_ring32.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sms_ring32.bin
+    vendor/meizu/m1882/proprietary/vendor/firmware/sms_ring32.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sms_ring32.bin \
+    vendor/meizu/m1882/proprietary/vendor/firmware/st_fts.ftb:$(TARGET_COPY_OUT_VENDOR)/firmware/st_fts.ftb \
+    vendor/meizu/m1882/proprietary/vendor/firmware/stm_fts_production_limits.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/stm_fts_production_limits.csv
