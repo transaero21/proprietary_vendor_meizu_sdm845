@@ -106,7 +106,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/etc/vstab_db_0_720p_video_30fps.config:$(TARGET_COPY_OUT_SYSTEM)/etc/vstab_db_0_720p_video_30fps.config \
     vendor/meizu/sdm845/proprietary/lib/libadsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libadsprpc_system.so \
     vendor/meizu/sdm845/proprietary/lib/libarcsoft_supernight.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_supernight.so \
-    vendor/meizu/sdm845/proprietary/vendor/apex/com.android.vndk.current.on_vendor/lib/libdexfile_support.so:$(TARGET_COPY_OUT_VENDOR)/apex/com.android.vndk.current.on_vendor/lib/libdexfile_support.so \
     vendor/meizu/sdm845/proprietary/lib/libmdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmdsprpc_system.so \
     vendor/meizu/sdm845/proprietary/lib/libqti-util_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqti-util_system.so \
     vendor/meizu/sdm845/proprietary/lib/libsdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsdsprpc_system.so \
@@ -117,7 +116,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/lib/libssc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libssc.so \
     vendor/meizu/sdm845/proprietary/lib/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioroute.so \
     vendor/meizu/sdm845/proprietary/lib64/libadsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libadsprpc_system.so \
-    vendor/meizu/sdm845/proprietary/vendor/apex/com.android.vndk.current.on_vendor/lib64/libdexfile_support.so:$(TARGET_COPY_OUT_VENDOR)/apex/com.android.vndk.current.on_vendor/lib64/libdexfile_support.so \
     vendor/meizu/sdm845/proprietary/lib64/libmdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmdsprpc_system.so \
     vendor/meizu/sdm845/proprietary/lib64/libqti-util_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqti-util_system.so \
     vendor/meizu/sdm845/proprietary/lib64/libsdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsdsprpc_system.so \
