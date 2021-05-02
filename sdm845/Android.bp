@@ -443,19 +443,19 @@ android_app_import {
 dex_import {
 	name: "QPerformance",
 	owner: "meizu",
-	jars: ["proprietary/system/framework/QPerformance.jar"],
+	jars: ["proprietary/framework/QPerformance.jar"],
 }
 
 dex_import {
 	name: "QXPerformance",
 	owner: "meizu",
-	jars: ["proprietary/system/framework/QXPerformance.jar"],
+	jars: ["proprietary/framework/QXPerformance.jar"],
 }
 
 dex_import {
 	name: "UxPerformance",
 	owner: "meizu",
-	jars: ["proprietary/system/framework/UxPerformance.jar"],
+	jars: ["proprietary/framework/UxPerformance.jar"],
 }
 
 prebuilt_etc_xml {
