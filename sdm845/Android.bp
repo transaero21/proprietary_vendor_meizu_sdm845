@@ -284,6 +284,16 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
+	name: "IFAAService",
+	owner: "meizu",
+	apk: "proprietary/app/IFAAService/IFAAService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
 	name: "QtiSystemService",
 	owner: "meizu",
 	apk: "proprietary/app/QtiSystemService/QtiSystemService.apk",
@@ -297,6 +307,16 @@ android_app_import {
 	name: "QtiTelephonyService",
 	owner: "meizu",
 	apk: "proprietary/app/QtiTelephonyService/QtiTelephonyService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
+	name: "SoterService",
+	owner: "meizu",
+	apk: "proprietary/app/SoterService/SoterService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
