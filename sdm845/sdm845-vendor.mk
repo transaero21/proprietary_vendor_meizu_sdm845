@@ -329,7 +329,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/meizu/sdm845/proprietary/vendor/bin/hw/android.hardware.gnss@2.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.0-service-qti \
     vendor/meizu/sdm845/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service-qti \
-    vendor/meizu/sdm845/proprietary/vendor/bin/hw/meizu.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/meizu.biometrics.fingerprint@2.1-service \
     vendor/meizu/sdm845/proprietary/vendor/bin/hw/qcrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrild \
     vendor/meizu/sdm845/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
     vendor/meizu/sdm845/proprietary/vendor/bin/hw/vendor.meizu.hardware.ifaa@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.meizu.hardware.ifaa@1.0-service \
@@ -415,7 +414,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.0-service-qti.rc \
     vendor/meizu/sdm845/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
     vendor/meizu/sdm845/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
-    vendor/meizu/sdm845/proprietary/vendor/etc/init/meizu.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/meizu.biometrics.fingerprint@2.1-service.rc \
     vendor/meizu/sdm845/proprietary/vendor/etc/init/qcrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrild.rc \
     vendor/meizu/sdm845/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/meizu/sdm845/proprietary/vendor/etc/init/vendor.meizu.hardware.ifaa@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.meizu.hardware.ifaa@1.0-service.rc \
@@ -443,7 +441,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
     vendor/meizu/sdm845/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
     vendor/meizu/sdm845/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
-    vendor/meizu/sdm845/proprietary/vendor/etc/permissions/com.synaptics.fingerprint.extension.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.synaptics.fingerprint.extension.xml \
     vendor/meizu/sdm845/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
     vendor/meizu/sdm845/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/meizu/sdm845/proprietary/vendor/etc/scve/facereco/gModel.dat:$(TARGET_COPY_OUT_VENDOR)/etc/scve/facereco/gModel.dat \
@@ -522,7 +519,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/vendor/firmware/mzifaa.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/mzifaa.b06 \
     vendor/meizu/sdm845/proprietary/vendor/firmware/mzifaa.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/mzifaa.b07 \
     vendor/meizu/sdm845/proprietary/vendor/firmware/mzifaa.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/mzifaa.mdt \
-    vendor/meizu/sdm845/proprietary/vendor/framework/com.synaptics.fingerprint.extension.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.synaptics.fingerprint.extension.jar \
     vendor/meizu/sdm845/proprietary/vendor/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar:$(TARGET_COPY_OUT_VENDOR)/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar \
     vendor/meizu/sdm845/proprietary/vendor/lib/camera/com.qti.eeprom.truly_cmb433.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.truly_cmb433.so \
     vendor/meizu/sdm845/proprietary/vendor/lib/camera/com.qti.sensor.imx318.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx318.so \
@@ -998,8 +994,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/hw/audio.primary.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.sdm845.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so \
-    vendor/meizu/sdm845/proprietary/vendor/lib64/hw/fingerprint.goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.so \
-    vendor/meizu/sdm845/proprietary/vendor/lib64/hw/fingerprint.syna.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.syna.so \
+    vendor/meizu/sdm845/proprietary/vendor/lib64/hw/fingerprint.syna.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.syna.sdm845.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/hw/gralloc.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.sdm845.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/hw/hwcomposer.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.sdm845.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/hw/power.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.qcom.so \
@@ -1112,11 +1107,8 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libgcs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgdtap.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libgeofencing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgeofencing.so \
-    vendor/meizu/sdm845/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
-    vendor/meizu/sdm845/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libgnss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgnss.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libgnsspps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgnsspps.so \
-    vendor/meizu/sdm845/proprietary/vendor/lib64/libgoodixhwfingerprint.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixhwfingerprint.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgps.utils.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libgrallocutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgrallocutils.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so \
@@ -1258,7 +1250,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtzdrmgenprov.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libultrasound.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libultrasound.so \
-    vendor/meizu/sdm845/proprietary/vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libvfmtztransport.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvfmtztransport.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpphvx.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpplibrary.so \
@@ -1299,7 +1290,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.latency@1.0.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.qmi@1.0.so \
-    vendor/meizu/sdm845/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fm@1.0_vendor.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@1.0.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@2.0.so \
