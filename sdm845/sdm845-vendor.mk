@@ -150,6 +150,8 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdiag_system.so \
     vendor/meizu/sdm845/proprietary/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimscamera_jni.so \
     vendor/meizu/sdm845/proprietary/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsmedia_jni.so \
+    vendor/meizu/sdm845/proprietary/vendor/lib64/libkeymaster_messages-goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_messages-goodix.so \
+    vendor/meizu/sdm845/proprietary/vendor/lib64/libkeymaster_portable-goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_portable-goodix.so \
     vendor/meizu/sdm845/proprietary/lib64/libmdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmdsprpc_system.so \
     vendor/meizu/sdm845/proprietary/lib64/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmrtpdecoder.so \
     vendor/meizu/sdm845/proprietary/lib64/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmrtpencoder.so \
@@ -160,6 +162,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/lib64/libsns_fastRPC_util.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsns_fastRPC_util.so \
     vendor/meizu/sdm845/proprietary/lib64/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsns_low_lat_stream_stub.so \
     vendor/meizu/sdm845/proprietary/lib64/libsnsdiaglog.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsnsdiaglog.so \
+    vendor/meizu/sdm845/proprietary/vendor/lib64/libsoftkeymasterdevice-goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoftkeymasterdevice-goodix.so \
     vendor/meizu/sdm845/proprietary/lib64/libssc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libssc.so \
     vendor/meizu/sdm845/proprietary/lib64/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudioroute.so \
     vendor/meizu/sdm845/proprietary/product/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar \
@@ -892,9 +895,10 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/hw/audio.primary.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.sdm845.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so \
-    vendor/meizu/sdm845/proprietary/vendor/lib64/hw/fingerprint.syna.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.syna.sdm845.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/hw/gralloc.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.sdm845.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/hw/hwcomposer.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.sdm845.so \
+    vendor/meizu/sdm845/proprietary/vendor/lib64/hw/fingerprint.goodix.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.sdm845.so \
+    vendor/meizu/sdm845/proprietary/vendor/lib64/hw/fingerprint.synaptics.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.synaptics.sdm845.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/hw/power.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.qcom.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/hw/sound_trigger.primary.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.sdm845.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so \
@@ -999,8 +1003,11 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libgcs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgdtap.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libgeofencing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgeofencing.so \
+    vendor/meizu/sdm845/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
+    vendor/meizu/sdm845/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libgnss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgnss.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libgnsspps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgnsspps.so \
+    vendor/meizu/sdm845/proprietary/vendor/lib64/libgoodixhwfingerprint.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixhwfingerprint.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgps.utils.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libgrallocutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgrallocutils.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so \
@@ -1120,6 +1127,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtzdrmgenprov.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libultrasound.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libultrasound.so \
+    vendor/meizu/sdm845/proprietary/vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libvfmtztransport.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvfmtztransport.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpphvx.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpplibrary.so \
