@@ -125,7 +125,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/lib/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-imsvtutils.so \
     vendor/meizu/sdm845/proprietary/lib/libadsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libadsprpc_system.so \
     vendor/meizu/sdm845/proprietary/lib/libarcsoft_supernight.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_supernight.so \
-    vendor/meizu/sdm845/proprietary/vendor/apex/com.android.vndk.current.on_vendor/lib/libdexfile_support.so:$(TARGET_COPY_OUT_VENDOR)/apex/com.android.vndk.current.on_vendor/lib/libdexfile_support.so \
     vendor/meizu/sdm845/proprietary/lib/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdiag_system.so \
     vendor/meizu/sdm845/proprietary/lib/libimscamera_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimscamera_jni.so \
     vendor/meizu/sdm845/proprietary/lib/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimsmedia_jni.so \
@@ -146,7 +145,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/lib64/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imsvtextutils.so \
     vendor/meizu/sdm845/proprietary/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imsvtutils.so \
     vendor/meizu/sdm845/proprietary/lib64/libadsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libadsprpc_system.so \
-    vendor/meizu/sdm845/proprietary/vendor/apex/com.android.vndk.current.on_vendor/lib64/libdexfile_support.so:$(TARGET_COPY_OUT_VENDOR)/apex/com.android.vndk.current.on_vendor/lib64/libdexfile_support.so \
     vendor/meizu/sdm845/proprietary/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdiag_system.so \
     vendor/meizu/sdm845/proprietary/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimscamera_jni.so \
     vendor/meizu/sdm845/proprietary/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsmedia_jni.so \
