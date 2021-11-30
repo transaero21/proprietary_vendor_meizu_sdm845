@@ -17,88 +17,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_libpermissions.xml \
     vendor/meizu/sdm845/proprietary/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_permissions.xml \
     vendor/meizu/sdm845/proprietary/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/telephonyservice.xml \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/descriptor.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/descriptor.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/nanopb.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/nanopb.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/qti_gravity.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/qti_gravity.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_accel.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_accel.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_accel_cal.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_accel_cal.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_ambient_light.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_ambient_light.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_ambient_temperature.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_ambient_temperature.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_amd.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_amd.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_aont.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_aont.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_async_com_port.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_async_com_port.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_basic_gestures.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_basic_gestures.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_bring_to_ear.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_bring_to_ear.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_cal.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_cal.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_ccd_ttw.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_ccd_ttw.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_ccd_walk.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_ccd_walk.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_client.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_client.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_cmc.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_cmc.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_cmd.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_cmd.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_da_test.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_da_test.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_dae.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_dae.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_data_acquisition_engine.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_data_acquisition_engine.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_device_mode.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_device_mode.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_device_orient.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_device_orient.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_diag.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_diag.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_diag_sensor.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_diag_sensor.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_distance_bound.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_distance_bound.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_dpc.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_dpc.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_ext_svc.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_ext_svc.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_facing.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_facing.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_fmv.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_fmv.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_formatter.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_formatter.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_fw.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_fw.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_game_rv.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_game_rv.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_geomag_rv.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_geomag_rv.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_gravity.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_gravity.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_gyro.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_gyro.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_gyro_cal.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_gyro_cal.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_gyro_rot_matrix.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_gyro_rot_matrix.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_hall.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_hall.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_heart_beat.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_heart_beat.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_heart_rate.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_heart_rate.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_humidity.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_humidity.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_interrupt.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_interrupt.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_mag.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_mag.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_mag_cal.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_mag_cal.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_mcmd.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_mcmd.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_motion_detect.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_motion_detect.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_multishake.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_multishake.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_oem1.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_oem1.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_offbody_detect.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_offbody_detect.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_pedometer.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_pedometer.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_pedometer_wrist.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_pedometer_wrist.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_physical_sensor_test.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_physical_sensor_test.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_pose_6dof.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_pose_6dof.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_ppg.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_ppg.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_pressure.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_pressure.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_proximity.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_proximity.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_psmd.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_psmd.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_registry.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_registry.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_remote_proc_state.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_remote_proc_state.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_resampler.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_resampler.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_rgb.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_rgb.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_rmd.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_rmd.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_rotv.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_rotv.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_sar.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_sar.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_sensor_temperature.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_sensor_temperature.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_sig_motion.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_sig_motion.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_signal_sensor.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_signal_sensor.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_sim.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_sim.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_sim_legacy.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_sim_legacy.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_std.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_std.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_std_event_gated_sensor.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_std_event_gated_sensor.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_std_sensor.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_std_sensor.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_std_type.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_std_type.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_suid.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_suid.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_thermopile.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_thermopile.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_threshold.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_threshold.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_tilt.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_tilt.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_tilt_to_wake.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_tilt_to_wake.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_timer.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_timer.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_ultra_violet.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_ultra_violet.proto \
-    vendor/meizu/sdm845/proprietary/etc/sensors/proto/sns_wrist_tilt_gesture.proto:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/proto/sns_wrist_tilt_gesture.proto \
     vendor/meizu/sdm845/proprietary/etc/vstab_db_0_1080p_video_30fps.config:$(TARGET_COPY_OUT_SYSTEM)/etc/vstab_db_0_1080p_video_30fps.config \
     vendor/meizu/sdm845/proprietary/etc/vstab_db_0_4k_video_30fps.config:$(TARGET_COPY_OUT_SYSTEM)/etc/vstab_db_0_4k_video_30fps.config \
     vendor/meizu/sdm845/proprietary/etc/vstab_db_0_720p_video_30fps.config:$(TARGET_COPY_OUT_SYSTEM)/etc/vstab_db_0_720p_video_30fps.config \
@@ -131,14 +49,8 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/lib/libmdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmdsprpc_system.so \
     vendor/meizu/sdm845/proprietary/lib/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmrtpdecoder.so \
     vendor/meizu/sdm845/proprietary/lib/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmrtpencoder.so \
-    vendor/meizu/sdm845/proprietary/lib/libqti-util_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqti-util_system.so \
     vendor/meizu/sdm845/proprietary/lib/librcc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/librcc.so \
     vendor/meizu/sdm845/proprietary/lib/libsdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsdsprpc_system.so \
-    vendor/meizu/sdm845/proprietary/lib/libsensorslog.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsensorslog.so \
-    vendor/meizu/sdm845/proprietary/lib/libsns_fastRPC_util.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsns_fastRPC_util.so \
-    vendor/meizu/sdm845/proprietary/lib/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsns_low_lat_stream_stub.so \
-    vendor/meizu/sdm845/proprietary/lib/libsnsdiaglog.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsnsdiaglog.so \
-    vendor/meizu/sdm845/proprietary/lib/libssc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libssc.so \
     vendor/meizu/sdm845/proprietary/lib/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioroute.so \
     vendor/meizu/sdm845/proprietary/lib64/lib-imsvideocodec.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imsvideocodec.so \
     vendor/meizu/sdm845/proprietary/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imsvt.so \
@@ -153,15 +65,9 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/lib64/libmdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmdsprpc_system.so \
     vendor/meizu/sdm845/proprietary/lib64/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmrtpdecoder.so \
     vendor/meizu/sdm845/proprietary/lib64/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmrtpencoder.so \
-    vendor/meizu/sdm845/proprietary/lib64/libqti-util_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqti-util_system.so \
     vendor/meizu/sdm845/proprietary/lib64/librcc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/librcc.so \
     vendor/meizu/sdm845/proprietary/lib64/libsdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsdsprpc_system.so \
-    vendor/meizu/sdm845/proprietary/lib64/libsensorslog.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsensorslog.so \
-    vendor/meizu/sdm845/proprietary/lib64/libsns_fastRPC_util.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsns_fastRPC_util.so \
-    vendor/meizu/sdm845/proprietary/lib64/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsns_low_lat_stream_stub.so \
-    vendor/meizu/sdm845/proprietary/lib64/libsnsdiaglog.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsnsdiaglog.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libsoftkeymasterdevice-goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoftkeymasterdevice-goodix.so \
-    vendor/meizu/sdm845/proprietary/lib64/libssc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libssc.so \
     vendor/meizu/sdm845/proprietary/lib64/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudioroute.so \
     vendor/meizu/sdm845/proprietary/product/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar \
     vendor/meizu/sdm845/proprietary/product/framework/vendor.qti.hardware.soter-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.hardware.soter-V1.0-java.jar \
@@ -224,7 +130,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/vendor/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
     vendor/meizu/sdm845/proprietary/vendor/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server \
     vendor/meizu/sdm845/proprietary/vendor/bin/mm-pp-dpps:$(TARGET_COPY_OUT_VENDOR)/bin/mm-pp-dpps \
-    vendor/meizu/sdm845/proprietary/vendor/bin/mz_sensor_test:$(TARGET_COPY_OUT_VENDOR)/bin/mz_sensor_test \
     vendor/meizu/sdm845/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
     vendor/meizu/sdm845/proprietary/vendor/bin/pd-mapper:$(TARGET_COPY_OUT_VENDOR)/bin/pd-mapper \
     vendor/meizu/sdm845/proprietary/vendor/bin/pm-proxy:$(TARGET_COPY_OUT_VENDOR)/bin/pm-proxy \
@@ -233,7 +138,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/meizu/sdm845/proprietary/vendor/bin/qti:$(TARGET_COPY_OUT_VENDOR)/bin/qti \
     vendor/meizu/sdm845/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
-    vendor/meizu/sdm845/proprietary/vendor/bin/sensors.qti:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti \
+    vendor/meizu/sdm845/proprietary/vendor/bin/sensors.qcom:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qcom \
     vendor/meizu/sdm845/proprietary/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon \
     vendor/meizu/sdm845/proprietary/vendor/bin/tftp_server:$(TARGET_COPY_OUT_VENDOR)/bin/tftp_server \
     vendor/meizu/sdm845/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
@@ -291,9 +196,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/meizu/sdm845/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
     vendor/meizu/sdm845/proprietary/vendor/etc/qdcm_calib_data_sofef00m_amoled_fhd+_cmd_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_sofef00m_amoled_fhd+_cmd_mode_dsi_panel.xml \
-    vendor/meizu/sdm845/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/meizu/sdm845/proprietary/vendor/etc/scve/facereco/gModel.dat:$(TARGET_COPY_OUT_VENDOR)/etc/scve/facereco/gModel.dat \
-    vendor/meizu/sdm845/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/meizu/sdm845/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/meizu/sdm845/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/meizu/sdm845/proprietary/vendor/firmware/a225_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pfp.fw \
@@ -517,7 +420,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
     vendor/meizu/sdm845/proprietary/vendor/lib/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQTEEConnector_vendor.so \
     vendor/meizu/sdm845/proprietary/vendor/lib/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriver_adreno.so \
-    vendor/meizu/sdm845/proprietary/vendor/lib/libSSc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSSc.so \
     vendor/meizu/sdm845/proprietary/vendor/lib/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSecureUILib.so \
     vendor/meizu/sdm845/proprietary/vendor/lib/libSensorManagerHAL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSensorManagerHAL.so \
     vendor/meizu/sdm845/proprietary/vendor/lib/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libStDrvInt.so \
@@ -672,6 +574,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/vendor/lib/libspl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspl.so \
     vendor/meizu/sdm845/proprietary/vendor/lib/libssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssc.so \
     vendor/meizu/sdm845/proprietary/vendor/lib/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssc_default_listener.so \
+    vendor/meizu/sdm845/proprietary/vendor/lib/libssc_sensors.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssc_sensors.so \
     vendor/meizu/sdm845/proprietary/vendor/lib/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssd.so \
     vendor/meizu/sdm845/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/meizu/sdm845/proprietary/vendor/lib/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsubsystem_control.so \
@@ -682,7 +585,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/vendor/lib/libtinycompress_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress_vendor.so \
     vendor/meizu/sdm845/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
     vendor/meizu/sdm845/proprietary/vendor/lib/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtzdrmgenprov.so \
-    vendor/meizu/sdm845/proprietary/vendor/lib/libultrasound.so:$(TARGET_COPY_OUT_VENDOR)/lib/libultrasound.so \
     vendor/meizu/sdm845/proprietary/vendor/lib/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpphvx.so \
     vendor/meizu/sdm845/proprietary/vendor/lib/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpplibrary.so \
     vendor/meizu/sdm845/proprietary/vendor/lib/libvpptestutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpptestutils.so \
@@ -709,7 +611,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/meizu/sdm845/proprietary/vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsns_low_lat_stream_skel.so \
     vendor/meizu/sdm845/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
-    vendor/meizu/sdm845/proprietary/vendor/lib/sensors.touch.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.touch.so \
     vendor/meizu/sdm845/proprietary/vendor/lib/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libasphere.so \
     vendor/meizu/sdm845/proprietary/vendor/lib/soundfx/libbassboostMz.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libbassboostMz.so \
     vendor/meizu/sdm845/proprietary/vendor/lib/soundfx/libequalizerMz.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libequalizerMz.so \
@@ -931,7 +832,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libnetmgr_nr_fusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_nr_fusion.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libnetmgr_rmnet_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_rmnet_ext.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libnlnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnlnetmgr.so \
-    vendor/meizu/sdm845/proprietary/vendor/lib64/libnotifyaudiohal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnotifyaudiohal.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/liboemaids_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemaids_vendor.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdmapper.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdnotifier.so \
@@ -1001,6 +901,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libspl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspl.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc_default_listener.so \
+    vendor/meizu/sdm845/proprietary/vendor/lib64/libssc_sensors.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc_sensors.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsubsystem_control.so \
@@ -1011,7 +912,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libtinycompress_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress_vendor.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtzdrmgenprov.so \
-    vendor/meizu/sdm845/proprietary/vendor/lib64/libultrasound.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libultrasound.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libvfmtztransport.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvfmtztransport.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpphvx.so \
@@ -1024,9 +924,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/sdm845/proprietary/vendor/lib64/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtadapter.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/qcrild_librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrild_librilutils.so \
-    vendor/meizu/sdm845/proprietary/vendor/lib64/sensors.elliptic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.elliptic.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
-    vendor/meizu/sdm845/proprietary/vendor/lib64/sensors.touch.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.touch.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libasphere.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/soundfx/libqcompostprocbundle.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcompostprocbundle.so \
     vendor/meizu/sdm845/proprietary/vendor/lib64/soundfx/libqcomvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcomvisualizer.so \
