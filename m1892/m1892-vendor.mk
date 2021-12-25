@@ -18,41 +18,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/meizu/m1892
 
 PRODUCT_COPY_FILES += \
-    vendor/meizu/m1892/proprietary/vendor/bin/iwpriv:$(TARGET_COPY_OUT_VENDOR)/bin/iwpriv \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_dri_0.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/bh1745_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bh1745_0.json \
     vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/config_list.txt:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/config_list.txt \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/icm206xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/icm206xx_0.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/mmc3530kj_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/mmc3530kj_0.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sdm845_2p5K_tmx4903.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sdm845_2p5K_tmx4903.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sdm845_4K_tmx4903.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sdm845_4K_tmx4903.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sdm845_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sdm845_ak991x_0.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sdm845_bh1745_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sdm845_bh1745_0.json \
     vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sdm845_icm206xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sdm845_icm206xx_0.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sdm845_mmc3530kj_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sdm845_mmc3530kj_0.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sdm845_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sdm845_power_0.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sdm845_stk3x2x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sdm845_stk3x2x_0.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sns_amd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sns_basic_gestures.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_basic_gestures.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sns_bring_to_ear.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_bring_to_ear.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sns_cm.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_cm.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sns_device_orient.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_device_orient.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sns_diag_filter.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_diag_filter.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sns_distance_bound.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_distance_bound.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sns_dpc.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_dpc.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sns_facing.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_facing.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sns_fmv.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_fmv.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sns_geomag_rv.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_geomag_rv.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sns_gyro_cal.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_gyro_cal.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sns_mag_cal.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_mag_cal.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sns_multishake.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_multishake.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sns_pedometer.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_pedometer.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sns_rmd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_rmd.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sns_rotv.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_rotv.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sns_smd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_smd.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sns_tilt.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/sns_tilt_to_wake.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_to_wake.json \
-    vendor/meizu/m1892/proprietary/vendor/etc/sensors/config/stk3x2x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/stk3x2x_0.json \
     vendor/meizu/m1892/proprietary/vendor/firmware/ZKL_SimHei_48.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ZKL_SimHei_48.bin \
     vendor/meizu/m1892/proprietary/vendor/firmware/cleanup_ring.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cleanup_ring.bin \
     vendor/meizu/m1892/proprietary/vendor/firmware/coin_ring.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/coin_ring.bin \
